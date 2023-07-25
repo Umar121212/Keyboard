@@ -1,0 +1,318 @@
+ body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.slider {
+    background-color: #6826C7;
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+    transform: translateX(300px);
+    transition: 0.5s;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.sliderOpen {
+    background-color: #6826C7;
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(0);
+    transition: 0.5s;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.openBtn {
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    margin: 20px 600px;
+    border-radius: 15px;
+    border: 1px solid;
+    box-shadow: 10px 5px 5px #6826C7;
+    background-color: #6826C7;
+
+    color: aliceblue;
+}
+/* Checkbox start */
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.region {
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: #DBD4E5;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #DBD4E5;
+    outline: none;
+    font-size: 24px;
+    padding-left: 10px;
+
+}
+
+.telNum {
+    width: 360px;
+    height: 60px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: #DBD4E5;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #DBD4E5;
+    outline: none;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.sbmt {
+    width: 120px;
+    height: 60px;
+    font-size: 18px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border: 1px solid;
+    box-shadow: 10px 5px 5px #6826C7;
+    background-color: #6826C7;
+    color: aliceblue;
+}
+/* Checkbox end */
+
+/* Keyboard start */
+.display-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard-display {
+    margin: 12px;
+    padding: 8px;
+    width: 70vh;
+    height: 15vh;
+    font-size: 32px;
+    text-align: right;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px #F4F0F9;
+
+}
+
+.container-keyboard{
+    width: 160vh;
+    height: 54vh;
+    margin: 20px auto;
+    padding: 0 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #F4F0F9;
+    font-size: 32px;
+
+
+}
+/* First row start */
+
+.fstRow {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin-bottom: 7px;
+    margin-top: 5px;
+    
+}
+
+.key {
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px;
+    border-radius: 12px;
+   
+}
+
+.key:hover {
+    box-shadow: 3px 3px 7px -2px;
+}
+
+#back {
+    height: 10vh;
+    width: 20vh;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px;
+    border-radius: 12px;
+}
+/* First row end */
+/* Second row start */
+
+.secRow {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin-bottom: 7px;
+}
+
+#tab {
+    width: 15vh;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px;
+    border-radius: 12px;
+}
+
+#enter {
+    width: 10vh;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px;
+    border-radius: 12px;
+}
+
+/* Second row end */
+/* Third row start */
+.thirdRow {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin-bottom: 7px;
+    padding-right: 12vh;
+    
+}
+
+#caps {
+    width: 17vh;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px;
+    border-radius: 12px;
+}
+/* Third row end */
+/* Fourth row start */
+.fourRow {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin-bottom: 7px;
+
+}
+
+.fourRow:last-child {
+    width: 18vh;
+}
+
+#shift {
+    width: 20vh;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px;
+    border-radius: 12px;
+}
+
+/* Fourth row end */
+/* Fifth row start */
+.fifthRow {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin-bottom: 7px;
+
+}
+
+#space {
+    display: flex;
+    width: 50vh;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px;
+    border-radius: 12px;
+}
+
+.key-ctrl {
+    display: flex;
+    width: 15vh;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px;
+    border-radius: 12px;
+}
+
+.key-alt {
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px;
+    border-radius: 12px;
+}
+
+.nav-keys {
+    display: block;
+}
+
+#up-down-key {
+    height: 4.5vh;
+    margin: 5px auto 0px;
+    font-size: 28px;
+}
+
+.key-left , .key-right{
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px;
+    border-radius: 12px;
+}
+/* .key-left, .key-rigth */
+/* Fifth row end */
+/* Keyboard end */

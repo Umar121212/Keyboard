@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div>
+        <button class="openBtn">Open slider</button>
+    </div>
+    <div class="slider">
+        <ul>
+            <li>Menu1</li>
+            <li>Menu2</li>
+            <li>Menu3</li>
+            <li>Menu4</li>
+            <li>Menu5</li>
+            <li>Menu6</li>
+        </ul>
+    </div>
+<!-- Start of Tel number checkbox -->
+    <div class="num">
+        <input type="text" placeholder="+998" class="region">
+        <input type="text" placeholder="901234567" class="telNum">
+        <button class="sbmt">Проверить</button>
+    </div>
+<!-- End of Tel number checkbox -->
+<!-- Start Keyboar -->
+    <div class="display-box">
+        <input type="text" class="keyboard-display" placeholder="напиши..." readonly>
+    </div>
+    <div class="container-keyboard">
+        <div class="fstRow">
+            <span class="key">`</span>
+            <span class="key">1</span>
+            <span class="key">2</span>
+            <span class="key">3</span>
+            <span class="key">4</span>
+            <span class="key">5</span>
+            <span class="key">6</span>
+            <span class="key">7</span>
+            <span class="key">8</span>
+            <span class="key">9</span>
+            <span class="key">0</span>
+            <span class="key">-</span>
+            <span class="key">=</span>
+            <span class="key" id="back">backspace</span>
+        </div>
+        <div class="secRow">
+            <div class="key" id="tab">tab</div>
+            <div class="key">q</div>
+            <div class="key">w</div>
+            <div class="key">e</div>
+            <div class="key">r</div>
+            <div class="key">t</div>
+            <div class="key">y</div>
+            <div class="key">u</div>
+            <div class="key">i</div>
+            <div class="key">o</div>
+            <div class="key">p</div>
+            <div class="key">[</div>
+            <div class="key">]</div>
+            <div class="key" id="enter" contenteditable="true">enter</div>
+        </div>
+        <div class="thirdRow">
+            <div class="key" id="caps">capslock</div>
+            <div class="key">a</div>
+            <div class="key">s</div>
+            <div class="key">d</div>
+            <div class="key">f</div>
+            <div class="key">g</div>
+            <div class="key">h</div>
+            <div class="key">j</div>
+            <div class="key">k</div>
+            <div class="key">l</div>
+            <div class="key">;</div>
+            <div class="key">'</div>
+        </div>
+        <div class="fourRow">
+            <div class="key" id="shift">shift</div>
+            <div class="key">z</div>
+            <div class="key">x</div>
+            <div class="key">c</div>
+            <div class="key">v</div>
+            <div class="key">b</div>
+            <div class="key">n</div>
+            <div class="key">m</div>
+            <div class="key">,</div>
+            <div class="key">.</div>
+            <div class="key">/</div>
+            <div class="key" id="shift">shift</div>
+        </div>
+        <div class="fifthRow">
+            <div class="key" id="ctrl">ctrl</div>
+            <div class="key">fn</div>
+            <div class="key">win</div>
+            <div class="key" id="alt">alt</div>
+            <div class="key" id="space">space</div>
+            <div class="key" id="alt">alt</div>
+            <div class="key" id="ctrl">ctrl</div>
+            <div class="key" id="left">left</div>
+            <div class="nav-keys">
+                <div class="key" id="up-down-key">up</div>
+                <div class="key" id="up-down-key">down</div>
+            </div>   
+            <div class="key" id="right">right</div>
+        </div>
+    </div>
+    <!-- End Keyboard -->
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
